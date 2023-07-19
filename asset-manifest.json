@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TimeLeftTo30Nov%20/static/css/main.c7299ae1.css",
+    "main.js": "/TimeLeftTo30Nov%20/static/js/main.c8e29db7.js",
+    "static/js/787.71e672d5.chunk.js": "/TimeLeftTo30Nov%20/static/js/787.71e672d5.chunk.js",
+    "static/media/acviseulgbt.png": "/TimeLeftTo30Nov%20/static/media/acviseulgbt.bba57a5f443ef9a37763.png",
+    "index.html": "/TimeLeftTo30Nov%20/index.html",
+    "static/media/location.svg": "/TimeLeftTo30Nov%20/static/media/location.d4f5c900a07f9cda9c233a2085f1e292.svg",
+    "main.c7299ae1.css.map": "/TimeLeftTo30Nov%20/static/css/main.c7299ae1.css.map",
+    "main.c8e29db7.js.map": "/TimeLeftTo30Nov%20/static/js/main.c8e29db7.js.map",
+    "787.71e672d5.chunk.js.map": "/TimeLeftTo30Nov%20/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7299ae1.css",
+    "static/js/main.c8e29db7.js"
+  ]
+}
