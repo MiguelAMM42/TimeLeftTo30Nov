@@ -1,0 +1,152 @@
+/* App.css */
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(255, 124, 146);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.Time-Countdown {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin:1rem;
+}
+
+.Time-Info {
+  /* display horizontally */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Time-Value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin:0.5rem;
+}
+
+.Wolf-GIF {
+  width: 80%;
+  height: auto;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.Location {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.LocationSVG {
+  width: 1.5rem;
+  height: auto;
+  margin: 0.5rem;
+}
+
+.Location-Info {
+  /* display horizontally */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.AC-Viseu-Img{
+  width:20rem;
+  height: auto;
+  margin: 0.5rem;
+  /* infinite heart beat animation */
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+/* for small screen */
+@media (max-width: 768px) {
+  .Time-Countdown {
+    font-size: 1.5rem;
+  }
+  .Time-Info {
+    display: flex;
+    flex-direction: column;
+  }
+  .Time-Value {
+    font-size: 1rem;
+  }
+
+  .Location {
+    font-size: 1rem;
+  }
+}
